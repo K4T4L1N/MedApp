@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.usm.I2001.stud.Catalin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="ro.usm.I2001.stud.Catalin.Activity_Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ro.usm.I2001.stud.Catalin.Activity_Register"></activity>
+
+        <activity android:name="ro.usm.I2001.stud.Catalin.MainActivity">
+            android:label="Aplicatia DB Spital"
+        </activity>
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities.Activity_Consultatii"
+            android:label="Tabela Consultatii"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities.Activity_Medicamente"
+            android:label="Tabela Medicamente"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities.Activity_Medici"
+            android:label="Tabela Medici"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities.Activity_Pacienti"
+            android:label="Tabela Pacienti"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities.Activity_Sectii"
+            android:label="Tabela Sectii"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity" />
+
+
+
+
+
+
+        <activity android:name="ro.usm.I2001.stud.Catalin.MainActivity_Client">
+            android:label="Aplicatia DB Spital"
+        </activity>
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities_Client.Activity_Consultatii_Client"
+            android:label="Tabela Consultatii"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity_Client" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities_Client.Activity_Medicamente_Client"
+            android:label="Tabela Medicamente"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity_Client" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities_Client.Activity_Medici_Client"
+            android:label="Tabela Medici"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity_Client" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities_Client.Activity_Pacienti_Client"
+            android:label="Tabela Pacienti"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity_Client" />
+        <activity
+            android:name="ro.usm.I2001.stud.Catalin.Activities_Client.Activity_Sectii_Client"
+            android:label="Tabela Sectii"
+            android:parentActivityName="ro.usm.I2001.stud.Catalin.MainActivity_Client" />
+    </application>
+
+</manifest>
